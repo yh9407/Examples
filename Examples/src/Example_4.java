@@ -24,8 +24,8 @@ public class Example_4 {
 		else // b¸¸ ÀÚ¹é
 			xa = 10;
 		    xb = 0;
+		    return 0 ;
 	}
-
 	public static void main(String[] args) {
 		Example_4 e = new Example_4();
 		int gil = e.dillema(0, 0);

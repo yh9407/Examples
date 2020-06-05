@@ -16,20 +16,16 @@ public class Example_1 {
 
 	public static void main(String[] args) {
 		Example_1 n = new Example_1();
-		
-		int[] kg = new int[] {5,11,8,4};
-		
-		
-		for(int a : kg ) {
+
+		int[] kg = new int[] { 5, 11, 8, 4 , 3 , 21 ,23 ,7 , 8};
+
+		for (int a : kg) {
 			int x = n.checkGrade(a);
-			System.out.print("checkGrade"+"("+a+")"+ " ---> ");
-			
+			System.out.print("수박무게 (" + a + ")" + " ---> ");
+
 			System.out.println(x + "등급");
-			
-		
- 		
+
+		}
 
 	}
-
-}
 }
